@@ -1,4 +1,4 @@
-all: multi
+All: multi
 
 multi: main.o ClientSocket.o ServerSocket.o Socket.o
 	g++ main.o ClientSocket.o ServerSocket.o Socket.o -lpthread -o main
